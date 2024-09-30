@@ -1,0 +1,86 @@
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto 0 auto;
+    width: 1238px;
+}
+
+.carousel-container {
+    width: 1110px;
+    height: 316px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+
+.carousel-item {
+    width: 331px;
+    height: 316px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px 0px #0000001A;
+    transition: box-shadow 0.3s ease;
+}
+
+.carousel-item:hover {
+    box-shadow: 0px 15px 24px 0px #0000001A;
+}
+
+.button-block-four {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.button-block-four svg path {
+    fill: #C2C8CD;
+    transition: fill 0.2s;
+}
+
+.button-block-four:hover svg path {
+    fill: #2A6CEA;
+    transition: fill 0.2s;
+}
+
+.user {
+    padding: 22px;
+    display: flex; 
+}
+
+.user img {
+    height: 44px;
+    width: 44px;
+    margin-right: 16px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews {
+    font-family: 'Graphik LCG', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 22px 0 22px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    line-clamp: 8;
+    text-overflow: ellipsis;
+}
+
+.username {
+    font-family: 'Graphik LCG', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.usercity {
+    font-family: 'Graphik LCG', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
